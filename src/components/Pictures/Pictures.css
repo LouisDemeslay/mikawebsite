@@ -1,0 +1,39 @@
+.FullPage{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top : 0;
+  z-index: -500;
+}
+
+.DivCenter{
+  position: relative;
+  animation-duration: 1s;
+  animation-name: pute;
+  left :15%;
+  width: 77%;
+  height : 100%;
+}
+
+.DivCenter img{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+}
+
+@keyframes pute {
+  from{
+    bottom: -1000px;
+    left: 15%;
+    width: 77%;
+    height : 100%;
+  }
+  to{
+    bottom:0;
+    left :15%;
+    width: 77%;
+    height : 100%;
+  }
+}

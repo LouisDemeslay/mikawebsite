@@ -1,0 +1,24 @@
+.FullScreenMap{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -500;
+}
+
+.FullScreenMap iframe{
+  position: relative;
+  display: block;
+  width: 50%;
+  left: 25%;
+  height: 40%;
+  top : 20%;
+  z-index: -500;
+  margin-bottom: 12%;
+}
+
+.FullScreenMap p{
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 15px;
+}

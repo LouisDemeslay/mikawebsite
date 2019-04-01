@@ -1,0 +1,36 @@
+.SideBar{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  width: 7%;
+  height: 20%;
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: flex-end;
+}
+
+.Images{
+  max-width: 50%;
+  padding-bottom: 15px;
+  margin-right: 0;
+  display: block;
+  animation-name: sisi;
+  animation-duration: 2s;
+}
+
+@keyframes sisi {
+  from{
+    max-width: 100%
+  }
+  to{
+    max-width: 50%
+  }
+}
+
+
+
+.Images:hover{
+  max-width: 60%;
+  padding-bottom: 5px;
+}

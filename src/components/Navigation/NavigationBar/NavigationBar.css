@@ -1,0 +1,43 @@
+.NavBar{
+  width: 15%;
+  height: 50%;
+  position: relative;
+}
+
+.Menu{
+  top : 170px;
+  left: 35px;
+  position: fixed;
+}
+
+.Menu a{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 130%;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.Logo a:hover{
+  opacity: 0.5
+}
+
+.Logo a.active{
+  color : blue
+}
+
+@keyframes pute {
+
+}
+
+.Menu a:hover{
+  color : #009E60;
+}
+
+.Menu a.active{
+  opacity: 0.5;
+  font-size: 150%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round')
